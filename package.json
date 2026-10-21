@@ -1,0 +1,11 @@
+{
+  "name": "unhook-all",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Local-first YouTube and Instagram distraction controls with schedules and focus timers",
+  "scripts": {
+    "test": "node tests/core.test.cjs && node tests/background.test.cjs && node tests/content.test.cjs",
+    "check": "node scripts/check.cjs",
+    "package": "python3 scripts/package.py"
+  }
+}
